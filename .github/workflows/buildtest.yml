@@ -1,0 +1,26 @@
+name: Build Test
+
+on: [push]
+
+## Does the same stuff as release
+## EXCEPT publishing the artifacts
+
+jobs:
+  buildtest:
+    name: Test build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14
+      - name: Pack
+        run: npm pack
+      - name: Verify
+        run: |
+          ls com.kagekirin.gcprefresh*.tgz
+          tar tvf com.kagekirin.gcprefresh*.tgz
+      - name: Store package name in env
+        run: echo "package_name=`ls com.kagekirin.gcprefresh*.tgz`" >> $GITHUB_ENV
+      - name: Verify package_name in env
+        run: echo "${{ env.package_name }}"
