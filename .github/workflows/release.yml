@@ -63,8 +63,6 @@ jobs:
           node-version: 14
           registry-url: https://npm.pkg.github.com/
           scope: '@kagekirin'
-      - name: Install dependencies
-        run: yarn install
       - name: Publish to GitHub NPM Registry
         run: npm publish --access public
         env:
@@ -86,8 +84,6 @@ jobs:
           scope: '@kagekirin'
       - name: Patch package.json
         run: sed -i -e "s|npm.pkg.github.com/@kagekirin|registry.npmjs.org|g" package.json
-      - name: Install dependencies
-        run: yarn install
       - name: Publish to NPM.JS Registry
         run: npm publish --access public
         env:
