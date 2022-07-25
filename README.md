@@ -36,7 +36,7 @@ The menu is under `Project Settings / GCPRefresh`.
 You might have noticed the new entry `GCP / Refresh GCP Token` in the menu bar.
 This opens the window below:
 
-![GCPRefresh Sindow](~/Documentation/GCPRefresh_Window.png)
+![GCPRefresh Window](Documentation~/GCPRefresh_Window.png)
 
 Clicking on the _Start_ button will directly refresh the token,
 and then enter a waiting phase depending on the refresh rate in the Project Settings.
