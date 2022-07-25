@@ -7,7 +7,8 @@
     "files": [
         "Scripts/Editor/**",
         "Scripts/Editor.meta",
-        "Scripts.meta",
+        "Assemblies/**",
+        "Assemblies/*.meta",
         "**.meta",
         "*.md"
     ],
