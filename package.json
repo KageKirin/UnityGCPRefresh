@@ -1,6 +1,6 @@
 {
     "name": "com.kagekirin.unitygcprefresh",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "displayName": "GCPRefresh",
     "description": "Unity Editor extension to refresh the GCP auth token in .upmconfig.toml",
     "unity": "2021.1",
