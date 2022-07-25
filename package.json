@@ -9,6 +9,7 @@
         "Scripts/Editor.meta",
         "Assemblies/**",
         "Assemblies/*.meta",
+        "Documentation~/**",
         "**.meta",
         "*.md"
     ],
