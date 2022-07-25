@@ -1,5 +1,5 @@
 {
-    "name": "com.kagekirin.gcprefresh",
+    "name": "com.kagekirin.unitygcprefresh",
     "version": "0.0.2",
     "displayName": "GCPRefresh",
     "description": "Unity Editor extension to refresh the GCP auth token in .upmconfig.toml",
@@ -29,7 +29,7 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/KageKirin/UnityGCPRefresh.git",
-        "directory": "com.kagekirin.gcprefresh"
+        "directory": "com.kagekirin.unitygcprefresh"
     },
     "publishConfig": {
         "registry": "https://npm.pkg.github.com/@kagekirin"
