@@ -11,16 +11,17 @@ and this package to the dependencies.
 {
   "scopedRegistries": [
     {
-      "name": "npmjs",
-      "url": "https://registry.npmjs.org",
+      "name": "OpenUPM",
+      "url": "https://package.openupm.com",
       "scopes": [
         "com.kagekirin"
       ]
     }
   ],
   "dependencies": {
-    "com.kagekirin.unitygcprefresh": "0.0.4"
+    "com.kagekirin.unitygcprefresh": "0.0.7"
   }
+}
 ```
 
 ## Setup
