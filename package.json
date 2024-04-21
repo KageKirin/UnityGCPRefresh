@@ -1,39 +1,39 @@
 {
-    "name": "com.kagekirin.unitygcprefresh",
-    "version": "0.0.5",
-    "displayName": "GCPRefresh",
-    "description": "Unity Editor extension to refresh the GCP auth token in .upmconfig.toml",
-    "unity": "2021.1",
-    "files": [
-        "Scripts/Editor/**",
-        "Scripts/Editor.meta",
-        "Assemblies/**",
-        "Assemblies/*.meta",
-        "Documentation~/**",
-        "**.meta",
-        "*.md"
-    ],
-    "dependencies": {
-        "com.unity.editorcoroutines": "1.0.0"
-    },
-    "keywords": [
-        "editor",
-        "google cloud",
-        "artifact registry",
-        "UPM",
-        "NPM"
-    ],
-    "author": {
-        "name": "KageKirin",
-        "email": "kagekirin@gmail.com",
-        "url": "https://github.com/kagekirin"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/KageKirin/UnityGCPRefresh.git",
-        "directory": "com.kagekirin.unitygcprefresh"
-    },
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com/@kagekirin"
-    }
+  "name": "com.kagekirin.unitygcprefresh",
+  "version": "0.0.6",
+  "displayName": "GCPRefresh",
+  "description": "Unity Editor extension to refresh the GCP auth token in .upmconfig.toml",
+  "unity": "2021.1",
+  "files": [
+    "Scripts/Editor/**",
+    "Scripts/Editor.meta",
+    "Assemblies/**",
+    "Assemblies/*.meta",
+    "Documentation~/**",
+    "**.meta",
+    "*.md"
+  ],
+  "dependencies": {
+    "com.unity.editorcoroutines": "1.0.0"
+  },
+  "keywords": [
+    "editor",
+    "google cloud",
+    "artifact registry",
+    "UPM",
+    "NPM"
+  ],
+  "author": {
+    "name": "KageKirin",
+    "email": "kagekirin@gmail.com",
+    "url": "https://github.com/kagekirin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KageKirin/UnityGCPRefresh.git",
+    "directory": "com.kagekirin.unitygcprefresh"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@kagekirin"
+  }
 }
