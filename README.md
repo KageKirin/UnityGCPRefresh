@@ -1,5 +1,7 @@
 # GCPRefresh for Unity
 
+![kitbashed crossover of Unity and GCP logos](./Documentation~/unitygcprefresh.png)
+
 A Unity Editor extension to run `gcloud auth` every _n_ minutes to refresh the `~/.upmconfig.toml` with an updated GCP auth token.
 
 ## Installation
@@ -11,16 +13,17 @@ and this package to the dependencies.
 {
   "scopedRegistries": [
     {
-      "name": "npmjs",
-      "url": "https://registry.npmjs.org",
+      "name": "OpenUPM",
+      "url": "https://package.openupm.com",
       "scopes": [
         "com.kagekirin"
       ]
     }
   ],
   "dependencies": {
-    "com.kagekirin.unitygcprefresh": "0.0.4"
+    "com.kagekirin.unitygcprefresh": "0.0.7"
   }
+}
 ```
 
 ## Setup
